@@ -22,7 +22,7 @@ class MainPageBinding extends Bindings {
       () => PatunganController(BenurRepositories(), PakanRepositories(), PatunganRepositories(), AuthRepositories(),),
     );
     Get.lazyPut<ProfileController>(
-      () => ProfileController(AuthRepositories()),
+      () => ProfileController(AuthRepositories(), PatunganRepositories()),
     );
   }
 }

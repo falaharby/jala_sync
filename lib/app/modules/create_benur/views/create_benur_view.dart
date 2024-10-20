@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:iconly/iconly.dart';
+import 'package:jala_verification/app/modules/patungan/controllers/patungan_controller.dart';
 import 'package:jala_verification/app/routes/app_pages.dart';
 import 'package:jala_verification/app/utils/colors.dart';
 import 'package:jala_verification/app/utils/string.dart';
@@ -20,6 +21,8 @@ class CreateBenurView extends GetView<CreateBenurController> {
   final TextEditingController pakanController = TextEditingController();
   final TextEditingController benurController = TextEditingController();
 
+  final patungan = Get.find<PatunganController>();
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -114,7 +117,7 @@ class CreateBenurView extends GetView<CreateBenurController> {
                                               ),
                                               _infoField(
                                                 'Net Price',
-                                                "Rp${StringUtil.price(data['net_price'])}",
+                                                "Rp${StringUtil.price(data['enduser_price'] ?? 0)}",
                                               ),
                                               const SizedBox(
                                                 height: 4,
@@ -242,7 +245,13 @@ class CreateBenurView extends GetView<CreateBenurController> {
             ),
             child: AppButtonWidget(
               onTap: () async {
-                await controller.createPatunganPakan(int.parse(targetController.text));
+                if(controller.type.value == 'pakan') {
+                  await controller.createPatunganPakan(int.parse(targetController.text));
+                } else {
+                  await controller.createPatunganBenur(int.parse(targetController.text));
+                }
+                patungan.getBenur();
+                patungan.getPakan();
                 Get.offAllNamed(Routes.MAIN_PAGE);
               },
               text: 'Simpan',
@@ -524,7 +533,9 @@ class CreateBenurView extends GetView<CreateBenurController> {
               enableFilter: true,
               hintText: "Pilih Benur",
               expandedInsets: EdgeInsets.zero,
-              onSelected: (String? value) {},
+              onSelected: (String? value) {
+                controller.selectedBenurId.value = value ?? '';
+              },
               textStyle: const TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w400,

@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'package:jala_verification/app/services/repositories/auth_repositories.dart';
+import 'package:jala_verification/app/services/repositories/benur_repositories.dart';
 import 'package:jala_verification/app/services/repositories/pakan_repositories.dart';
 import 'package:jala_verification/app/services/repositories/patungan_repositories.dart';
 
@@ -9,7 +10,7 @@ class OrderBinding extends Bindings {
   @override
   void dependencies() {
     Get.lazyPut<OrderController>(
-      () => OrderController(AuthRepositories(), PatunganRepositories(), PakanRepositories()),
+      () => OrderController(AuthRepositories(), PatunganRepositories(), PakanRepositories(), BenurRepositories()),
     );
   }
 }

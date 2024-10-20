@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:jala_verification/app/utils/colors.dart';
 import 'package:jala_verification/app/utils/string.dart';
@@ -7,6 +9,7 @@ class ListPatungan extends StatelessWidget {
   final VoidCallback? onTap;
   final String? name, lokasi, sisaHari;
   final int? saldoSekarang, targetSaldo;
+  final String tipe;
   const ListPatungan({
     super.key,
     this.onTap,
@@ -15,10 +18,13 @@ class ListPatungan extends StatelessWidget {
     this.targetSaldo,
     this.lokasi,
     this.sisaHari,
+    required this.tipe,
   });
 
   @override
   Widget build(BuildContext context) {
+    int randomNumber = Random().nextInt(4) + 1;
+
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 16),
       decoration: const BoxDecoration(
@@ -41,7 +47,21 @@ class ListPatungan extends StatelessWidget {
                 Container(
                   width: 142,
                   height: 91,
-                  color: const Color(0xFFD9D9D9),
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage(
+                        tipe == 'pakan'
+                            ? randomNumber == 1
+                                ? 'assets/pakan_1.jpeg'
+                                : randomNumber == 2
+                                    ? 'assets/pakan_2.jpeg'
+                                    : 'assets/pakan_3.jpg'
+                            : randomNumber == 1
+                                ? 'assets/benur_1.png'
+                                : 'assets/benur_2.jpeg',
+                      ),
+                    ),
+                  ),
                 ),
                 const SizedBox(
                   width: 12,
@@ -75,8 +95,7 @@ class ListPatungan extends StatelessWidget {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        StringUtil.price(
-                            saldoSekarang ?? 0),
+                        StringUtil.price(saldoSekarang ?? 0),
                         style: const TextStyle(
                           color: Color(0xFF304FFE),
                           fontSize: 16,
@@ -97,8 +116,7 @@ class ListPatungan extends StatelessWidget {
                               ),
                             ),
                             TextSpan(
-                              text:
-                                  '${StringUtil.price(targetSaldo ?? 0)}kg',
+                              text: '${StringUtil.price(targetSaldo ?? 0)}kg',
                               style: const TextStyle(
                                 color: Color(0xFFA0A0A0),
                                 fontSize: 10,

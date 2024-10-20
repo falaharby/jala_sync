@@ -25,7 +25,7 @@ class MainPageView extends GetView<MainPageController> {
               index: controller.pageIndex.value,
               children: [
                 IndexedStackChild(
-                  child: const HomeView(),
+                  child: HomeView(),
                 ),
                 IndexedStackChild(
                   child: const PatunganView(),
@@ -37,7 +37,7 @@ class MainPageView extends GetView<MainPageController> {
                   child: const SizedBox(),
                 ),
                 IndexedStackChild(
-                  child: const ProfileView(),
+                  child: ProfileView(),
                 ),
               ],
             ),

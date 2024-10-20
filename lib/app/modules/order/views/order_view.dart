@@ -4,6 +4,8 @@ import 'package:appwrite/models.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:jala_verification/app/modules/patungan/controllers/patungan_controller.dart';
 import 'package:jala_verification/app/routes/app_pages.dart';
 import 'package:jala_verification/app/utils/colors.dart';
 import 'package:jala_verification/app/utils/string.dart';
@@ -18,6 +20,9 @@ class OrderView extends GetView<OrderController> {
   final Document produk = Get.arguments;
   final TextEditingController totalController = TextEditingController();
   final formKey = GlobalKey<FormState>();
+
+  final patungan = Get.find<PatunganController>();
+
 
   @override
   Widget build(BuildContext context) {
@@ -104,6 +109,9 @@ class OrderView extends GetView<OrderController> {
             validator: (text) {
               final int sisa =
                   produk.data['target_saldo'] - produk.data['saldo_sekarang'];
+              if (int.parse(text ?? '0') % 25 != 0) {
+                return 'Kuota harus kelipatan 25kg';
+              }
               if (int.parse(text ?? '0') > sisa) {
                 return 'Maksimal jumlah kuota sekarang adalah ${StringUtil.price(sisa)}kg';
               }
@@ -116,6 +124,23 @@ class OrderView extends GetView<OrderController> {
   }
 
   Column _orderState() {
+    final price = produk.data['tipe'] == 'pakan'
+        ? controller.listProductPakan
+            .where((e) => e['product_name'] == produk.data['name'])
+            .first['enduser_price']
+        : controller.listProductBenur
+            .where((e) => e['fry_brand'] == produk.data['name'])
+            .first['harga_jual'];
+    final multiplier = produk.data['tipe'] == 'pakan'
+        ? int.parse(totalController.text) ~/ 25
+        : int.parse(totalController.text);
+    final totalPrice = price * multiplier;
+
+    const loco = 50000;
+    const service = 10000;
+
+    final totalFinal = totalPrice + loco + service;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -140,20 +165,22 @@ class OrderView extends GetView<OrderController> {
                 ),
               ),
             ),
-            const Expanded(
+            Expanded(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                  Builder(builder: (context) {
+                    return Text(
+                      StringUtil.price(price),
+                      style: const TextStyle(
+                        color: Color(0xFF182230),
+                        fontSize: 16,
+                      ),
+                    );
+                  }),
                   Text(
-                    '18.000',
-                    style: TextStyle(
-                      color: Color(0xFF182230),
-                      fontSize: 16,
-                    ),
-                  ),
-                  Text(
-                    'x30',
-                    style: TextStyle(
+                    'x$multiplier',
+                    style: const TextStyle(
                       color: Color(0xFF182230),
                       fontSize: 16,
                     ),
@@ -161,11 +188,11 @@ class OrderView extends GetView<OrderController> {
                 ],
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.only(left: 32.0),
+            Padding(
+              padding: const EdgeInsets.only(left: 32.0),
               child: Text(
-                '50.000',
-                style: TextStyle(
+                StringUtil.price(totalPrice),
+                style: const TextStyle(
                   color: Color(0xFF182230),
                   fontSize: 16,
                 ),
@@ -177,11 +204,11 @@ class OrderView extends GetView<OrderController> {
           color: borderColor,
           height: 32,
         ),
-        const Row(
+        Row(
           children: [
-            Expanded(
+            const Expanded(
               child: Text(
-                'Laco',
+                'Loco',
                 style: TextStyle(
                   color: Color(0xFF182230),
                   fontSize: 16,
@@ -189,10 +216,10 @@ class OrderView extends GetView<OrderController> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(left: 32.0),
+              padding: const EdgeInsets.only(left: 32.0),
               child: Text(
-                '50.000',
-                style: TextStyle(
+                StringUtil.price(loco),
+                style: const TextStyle(
                   color: Color(0xFF182230),
                   fontSize: 16,
                 ),
@@ -203,9 +230,9 @@ class OrderView extends GetView<OrderController> {
         const SizedBox(
           height: 16,
         ),
-        const Row(
+        Row(
           children: [
-            Expanded(
+            const Expanded(
               child: Text(
                 'Service Fee',
                 style: TextStyle(
@@ -215,10 +242,10 @@ class OrderView extends GetView<OrderController> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(left: 32.0),
+              padding: const EdgeInsets.only(left: 32.0),
               child: Text(
-                '10.000',
-                style: TextStyle(
+                StringUtil.price(service),
+                style: const TextStyle(
                   color: Color(0xFF182230),
                   fontSize: 16,
                 ),
@@ -230,9 +257,9 @@ class OrderView extends GetView<OrderController> {
           color: borderColor,
           height: 32,
         ),
-        const Row(
+        Row(
           children: [
-            Expanded(
+            const Expanded(
               child: Text(
                 'Total',
                 style: TextStyle(
@@ -242,10 +269,10 @@ class OrderView extends GetView<OrderController> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(left: 32.0),
+              padding: const EdgeInsets.only(left: 32.0),
               child: Text(
-                '65.000',
-                style: TextStyle(
+                StringUtil.price(totalFinal),
+                style: const TextStyle(
                     color: Color(0xFF182230),
                     fontSize: 16,
                     fontWeight: FontWeight.bold),
@@ -360,12 +387,33 @@ class OrderView extends GetView<OrderController> {
                   await controller.createPatungan(
                       orderId: produk.$id,
                       total: int.parse(totalController.text),
+                      tipe: produk.data['tipe'],
                       totalSekarang: produk.data['saldo_sekarang']);
+
                   showModalBottomSheet(
                     context: context,
                     backgroundColor: Colors.transparent,
                     isScrollControlled: true,
                     builder: (context) {
+                      final price = produk.data['tipe'] == 'pakan'
+                          ? controller.listProductPakan
+                              .where((e) =>
+                                  e['product_name'] == produk.data['name'])
+                              .first['enduser_price']
+                          : controller.listProductBenur
+                              .where(
+                                  (e) => e['fry_brand'] == produk.data['name'])
+                              .first['harga_jual'];
+                      final multiplier = produk.data['tipe'] == 'pakan'
+                          ? int.parse(totalController.text) ~/ 25
+                          : int.parse(totalController.text);
+                      final totalPrice = price * multiplier;
+
+                      const loco = 50000;
+                      const service = 10000;
+
+                      final totalFinal = totalPrice + loco + service;
+
                       return Container(
                         width: MediaQuery.of(context).size.width,
                         decoration: const BoxDecoration(
@@ -390,7 +438,6 @@ class OrderView extends GetView<OrderController> {
                                 style: TextStyle(
                                   color: Color(0xFF182230),
                                   fontSize: 22,
-                                  fontFamily: 'Poppins',
                                   fontWeight: FontWeight.w600,
                                 ),
                               ),
@@ -419,13 +466,15 @@ class OrderView extends GetView<OrderController> {
                                     _invoiceDetail(
                                       context,
                                       title: 'Nominal',
-                                      value: '650.000',
+                                      value: StringUtil.price(totalFinal),
                                     ),
                                     const SizedBox(height: 10),
                                     _invoiceDetail(
                                       context,
                                       title: 'Waktu',
-                                      value: '19 Oktober 2024, 10:30 WIB',
+                                      value: DateFormat(
+                                              "d MMMM yyyy, HH:mm:ss", "id_ID")
+                                          .format(DateTime.now()),
                                     ),
                                     const SizedBox(height: 10),
                                     _invoiceDetail(
@@ -448,6 +497,8 @@ class OrderView extends GetView<OrderController> {
                                   textSize: 16,
                                   fontWeight: FontWeight.w500,
                                   onTap: () {
+                                    patungan.getBenur();
+                                    patungan.getPakan();
                                     Get.offAllNamed(Routes.MAIN_PAGE);
                                   },
                                 ),

@@ -41,6 +41,7 @@ dependencies:
   proste_indexed_stack: ^0.2.4
   shared_preferences: ^2.3.2
   validators: ^3.0.0
+  webview_flutter: ^4.8.0
 
 dev_dependencies:
   flutter_lints: ^3.0.0

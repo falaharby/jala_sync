@@ -42,6 +42,8 @@ class PatunganController extends GetxController {
 
   @override
   void onInit() {
+    getPakan();
+    getBenur();
     super.onInit();
   }
 

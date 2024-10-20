@@ -10,7 +10,7 @@
             "product_name": "SS-00",
             "package": "25Kg",
             "net_price": 17100,
-            "enduser_price ": 18810,
+            "enduser_price": 18810,
             "profit": 1710
         },
         {
@@ -23,7 +23,7 @@
             "product_name": "SS-01",
             "package": "25Kg",
             "net_price": 17100,
-            "enduser_price ": 18810,
+            "enduser_price": 18810,
             "profit": 1710
         },
         {
@@ -36,7 +36,7 @@
             "product_name": "SS-02S",
             "package": "25Kg",
             "net_price": 17100,
-            "enduser_price ": 18810,
+            "enduser_price": 18810,
             "profit": 1710
         },
         {
@@ -49,7 +49,7 @@
             "product_name": "SS-02",
             "package": "25Kg",
             "net_price": 17100,
-            "enduser_price ": 18810,
+            "enduser_price": 18810,
             "profit": 1710
         },
         {
@@ -62,7 +62,7 @@
             "product_name": "SS-02 UP",
             "package": "25Kg",
             "net_price": 17100,
-            "enduser_price ": 18810,
+            "enduser_price": 18810,
             "profit": 1710
         },
         {
@@ -75,7 +75,7 @@
             "product_name": "SS-02SP",
             "package": "25Kg",
             "net_price": 17100,
-            "enduser_price ": 18810,
+            "enduser_price": 18810,
             "profit": 1710
         },
         {
@@ -88,7 +88,7 @@
             "product_name": "SS-02P",
             "package": "25Kg",
             "net_price": 17100,
-            "enduser_price ": 18810,
+            "enduser_price": 18810,
             "profit": 1710
         },
         {
@@ -101,7 +101,7 @@
             "product_name": "SS-03",
             "package": "25Kg",
             "net_price": 17100,
-            "enduser_price ": 18810,
+            "enduser_price": 18810,
             "profit": 1710
         },
         {
@@ -114,7 +114,7 @@
             "product_name": "SA-00",
             "package": "25Kg",
             "net_price": 16400,
-            "enduser_price ": 18040,
+            "enduser_price": 18040,
             "profit": 1640
         },
         {
@@ -127,7 +127,7 @@
             "product_name": "SA-01",
             "package": "25Kg",
             "net_price": 16400,
-            "enduser_price ": 18040,
+            "enduser_price": 18040,
             "profit": 1640
         },
         {
@@ -140,7 +140,7 @@
             "product_name": "SA-02S",
             "package": "25Kg",
             "net_price": 16400,
-            "enduser_price ": 18040,
+            "enduser_price": 18040,
             "profit": 1640
         },
         {
@@ -153,7 +153,7 @@
             "product_name": "SA-02",
             "package": "25Kg",
             "net_price": 16400,
-            "enduser_price ": 18040,
+            "enduser_price": 18040,
             "profit": 1640
         },
         {
@@ -166,7 +166,7 @@
             "product_name": "SA-02 UP",
             "package": "25Kg",
             "net_price": 16400,
-            "enduser_price ": 18040,
+            "enduser_price": 18040,
             "profit": 1640
         },
         {
@@ -179,7 +179,7 @@
             "product_name": "SA-02SP",
             "package": "25Kg",
             "net_price": 16300,
-            "enduser_price ": 17930,
+            "enduser_price": 17930,
             "profit": 1630
         },
         {
@@ -192,7 +192,7 @@
             "product_name": "SA-02P",
             "package": "25Kg",
             "net_price": 16300,
-            "enduser_price ": 17930,
+            "enduser_price": 17930,
             "profit": 1630
         },
         {
@@ -205,7 +205,7 @@
             "product_name": "SA-03",
             "package": "25Kg",
             "net_price": 16300,
-            "enduser_price ": 17930,
+            "enduser_price": 17930,
             "profit": 1630
         },
         {
@@ -218,7 +218,7 @@
             "product_name": "SI-00",
             "package": "25Kg",
             "net_price": 13200,
-            "enduser_price ": 14520,
+            "enduser_price": 14520,
             "profit": 1320
         },
         {
@@ -231,7 +231,7 @@
             "product_name": "SI-01",
             "package": "25Kg",
             "net_price": 13200,
-            "enduser_price ": 14520,
+            "enduser_price": 14520,
             "profit": 1320
         },
         {
@@ -244,7 +244,7 @@
             "product_name": "SI-02S",
             "package": "25Kg",
             "net_price": 13200,
-            "enduser_price ": 14520,
+            "enduser_price": 14520,
             "profit": 1320
         },
         {
@@ -257,7 +257,7 @@
             "product_name": "SI-02",
             "package": "25Kg",
             "net_price": 13200,
-            "enduser_price ": 14520,
+            "enduser_price": 14520,
             "profit": 1320
         },
         {
@@ -270,7 +270,7 @@
             "product_name": "SI-02 UP",
             "package": "25Kg",
             "net_price": 13200,
-            "enduser_price ": 14520,
+            "enduser_price": 14520,
             "profit": 1320
         },
         {
@@ -283,7 +283,7 @@
             "product_name": "SI-02SP",
             "package": "25Kg",
             "net_price": 13200,
-            "enduser_price ": 14520,
+            "enduser_price": 14520,
             "profit": 1320
         },
         {
@@ -296,7 +296,7 @@
             "product_name": "SI-02P",
             "package": "25Kg",
             "net_price": 13200,
-            "enduser_price ": 14520,
+            "enduser_price": 14520,
             "profit": 1320
         },
         {
@@ -309,7 +309,7 @@
             "product_name": "SI-03",
             "package": "25Kg",
             "net_price": 13200,
-            "enduser_price ": 14520,
+            "enduser_price": 14520,
             "profit": 1320
         },
         {
@@ -322,7 +322,7 @@
             "product_name": "F - 930",
             "package": "25Kg",
             "net_price": 15811,
-            "enduser_price ": 17392,
+            "enduser_price": 17392,
             "profit": 1581
         },
         {
@@ -335,7 +335,7 @@
             "product_name": "F - 931",
             "package": "25Kg",
             "net_price": 15811,
-            "enduser_price ": 17392,
+            "enduser_price": 17392,
             "profit": 1581
         },
         {
@@ -348,7 +348,7 @@
             "product_name": "F - 931P",
             "package": "25Kg",
             "net_price": 15911,
-            "enduser_price ": 17502,
+            "enduser_price": 17502,
             "profit": 1591
         },
         {
@@ -361,7 +361,7 @@
             "product_name": "F - 932",
             "package": "25Kg",
             "net_price": 15695,
-            "enduser_price ": 17265,
+            "enduser_price": 17265,
             "profit": 1570
         },
         {
@@ -374,7 +374,7 @@
             "product_name": "F - 932PS",
             "package": "25Kg",
             "net_price": 15795,
-            "enduser_price ": 17375,
+            "enduser_price": 17375,
             "profit": 1580
         },
         {
@@ -387,7 +387,7 @@
             "product_name": "F - 932P",
             "package": "25Kg",
             "net_price": 15655,
-            "enduser_price ": 17221,
+            "enduser_price": 17221,
             "profit": 1566
         },
         {
@@ -400,7 +400,7 @@
             "product_name": "F - 933",
             "package": "25Kg",
             "net_price": 15635,
-            "enduser_price ": 17199,
+            "enduser_price": 17199,
             "profit": 1564
         },
         {
@@ -413,7 +413,7 @@
             "product_name": "F - 933P",
             "package": "25Kg",
             "net_price": 15599,
-            "enduser_price ": 17159,
+            "enduser_price": 17159,
             "profit": 1560
         },
         {
@@ -426,7 +426,7 @@
             "product_name": "F - 934",
             "package": "25Kg",
             "net_price": 15419,
-            "enduser_price ": 16961,
+            "enduser_price": 16961,
             "profit": 1542
         },
         {
@@ -439,7 +439,7 @@
             "product_name": "EF - 930",
             "package": "25Kg",
             "net_price": 15121,
-            "enduser_price ": 16633,
+            "enduser_price": 16633,
             "profit": 1512
         },
         {
@@ -452,7 +452,7 @@
             "product_name": "EF - 931",
             "package": "25Kg",
             "net_price": 15121,
-            "enduser_price ": 16633,
+            "enduser_price": 16633,
             "profit": 1512
         },
         {
@@ -465,7 +465,7 @@
             "product_name": "EF - 931P",
             "package": "25Kg",
             "net_price": 15271,
-            "enduser_price ": 16796,
+            "enduser_price": 16796,
             "profit": 1525
         },
         {
@@ -478,7 +478,7 @@
             "product_name": "EF - 932",
             "package": "25Kg",
             "net_price": 15005,
-            "enduser_price ": 16506,
+            "enduser_price": 16506,
             "profit": 1501
         },
         {
@@ -491,7 +491,7 @@
             "product_name": "EF - 932PS",
             "package": "25Kg",
             "net_price": 15155,
-            "enduser_price ": 16671,
+            "enduser_price": 16671,
             "profit": 1516
         },
         {
@@ -504,7 +504,7 @@
             "product_name": "EF - 932P",
             "package": "25Kg",
             "net_price": 14965,
-            "enduser_price ": 16462,
+            "enduser_price": 16462,
             "profit": 1497
         },
         {
@@ -517,7 +517,7 @@
             "product_name": "EF - 933",
             "package": "25Kg",
             "net_price": 14965,
-            "enduser_price ": 16462,
+            "enduser_price": 16462,
             "profit": 1497
         },
         {
@@ -530,7 +530,7 @@
             "product_name": "EF - 933P",
             "package": "25Kg",
             "net_price": 14909,
-            "enduser_price ": 16400,
+            "enduser_price": 16400,
             "profit": 1491
         },
         {
@@ -543,7 +543,7 @@
             "product_name": "EF - 934",
             "package": "25Kg",
             "net_price": 14729,
-            "enduser_price ": 16202,
+            "enduser_price": 16202,
             "profit": 1473
         },
         {
@@ -556,7 +556,7 @@
             "product_name": "EG - 930",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -569,7 +569,7 @@
             "product_name": "EG - 931",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -582,7 +582,7 @@
             "product_name": "EG - 931P",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -595,7 +595,7 @@
             "product_name": "EG - 932",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -608,7 +608,7 @@
             "product_name": "EG - 932PS",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -621,7 +621,7 @@
             "product_name": "EG - 932P",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -634,7 +634,7 @@
             "product_name": "EG - 933",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -647,7 +647,7 @@
             "product_name": "EG - 933P",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -660,7 +660,7 @@
             "product_name": "EG - 934",
             "package": "25Kg",
             "net_price": 13350,
-            "enduser_price ": 14685,
+            "enduser_price": 14685,
             "profit": 1335
         },
         {
@@ -673,7 +673,7 @@
             "product_name": "PV - C0 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -686,7 +686,7 @@
             "product_name": "PV - C0 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -699,7 +699,7 @@
             "product_name": "PV - C0 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18200,
-            "enduser_price ": 20020,
+            "enduser_price": 20020,
             "profit": 1820
         },
         {
@@ -712,7 +712,7 @@
             "product_name": "PV - C0 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -725,7 +725,7 @@
             "product_name": "PV - C1 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -738,7 +738,7 @@
             "product_name": "PV - C1 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -751,7 +751,7 @@
             "product_name": "PV - C1 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18200,
-            "enduser_price ": 20020,
+            "enduser_price": 20020,
             "profit": 1820
         },
         {
@@ -764,7 +764,7 @@
             "product_name": "PV - C1 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -777,7 +777,7 @@
             "product_name": "PV - C2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -790,7 +790,7 @@
             "product_name": "PV - C2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17600,
-            "enduser_price ": 19360,
+            "enduser_price": 19360,
             "profit": 1760
         },
         {
@@ -803,7 +803,7 @@
             "product_name": "PV - C2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18200,
-            "enduser_price ": 20020,
+            "enduser_price": 20020,
             "profit": 1820
         },
         {
@@ -816,7 +816,7 @@
             "product_name": "PV - C2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -829,7 +829,7 @@
             "product_name": "PV - P1.0 - LOCO - 60",
             "package": "25Kg",
             "net_price": 18800,
-            "enduser_price ": 20680,
+            "enduser_price": 20680,
             "profit": 1880
         },
         {
@@ -842,7 +842,7 @@
             "product_name": "PV - P1.0 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17800,
-            "enduser_price ": 19580,
+            "enduser_price": 19580,
             "profit": 1780
         },
         {
@@ -855,7 +855,7 @@
             "product_name": "PV - P1.0 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18800,
-            "enduser_price ": 20680,
+            "enduser_price": 20680,
             "profit": 1880
         },
         {
@@ -868,7 +868,7 @@
             "product_name": "PV - P1.0 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 18800,
-            "enduser_price ": 20680,
+            "enduser_price": 20680,
             "profit": 1880
         },
         {
@@ -881,7 +881,7 @@
             "product_name": "PV - P1.2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 18800,
-            "enduser_price ": 20680,
+            "enduser_price": 20680,
             "profit": 1880
         },
         {
@@ -894,7 +894,7 @@
             "product_name": "PV - P1.2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 18800,
-            "enduser_price ": 20680,
+            "enduser_price": 20680,
             "profit": 1880
         },
         {
@@ -907,7 +907,7 @@
             "product_name": "PV - P1.2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18800,
-            "enduser_price ": 20680,
+            "enduser_price": 20680,
             "profit": 1880
         },
         {
@@ -920,7 +920,7 @@
             "product_name": "PV - P1.2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 18800,
-            "enduser_price ": 20680,
+            "enduser_price": 20680,
             "profit": 1880
         },
         {
@@ -933,7 +933,7 @@
             "product_name": "PV - P1.4 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -946,7 +946,7 @@
             "product_name": "PV - P1.4 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -959,7 +959,7 @@
             "product_name": "PV - P1.4 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -972,7 +972,7 @@
             "product_name": "PV - P1.4 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -985,7 +985,7 @@
             "product_name": "PV - P1.6 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -998,7 +998,7 @@
             "product_name": "PV - P1.6 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1011,7 +1011,7 @@
             "product_name": "PV - P1.6 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1024,7 +1024,7 @@
             "product_name": "PV - P1.6 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1037,7 +1037,7 @@
             "product_name": "SGH - C0 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1050,7 +1050,7 @@
             "product_name": "SGH - C0 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1063,7 +1063,7 @@
             "product_name": "SGH - C0 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18000,
-            "enduser_price ": 19800,
+            "enduser_price": 19800,
             "profit": 1800
         },
         {
@@ -1076,7 +1076,7 @@
             "product_name": "SGH - C0 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1089,7 +1089,7 @@
             "product_name": "SGH - C1 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1102,7 +1102,7 @@
             "product_name": "SGH - C1 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1115,7 +1115,7 @@
             "product_name": "SGH - C1 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1128,7 +1128,7 @@
             "product_name": "SGH - C1 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1141,7 +1141,7 @@
             "product_name": "SGH - C2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1154,7 +1154,7 @@
             "product_name": "SGH - C2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1167,7 +1167,7 @@
             "product_name": "SGH - C2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18000,
-            "enduser_price ": 19800,
+            "enduser_price": 19800,
             "profit": 1800
         },
         {
@@ -1180,7 +1180,7 @@
             "product_name": "SGH - C2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -1193,7 +1193,7 @@
             "product_name": "SGH - P1.0 - LOCO - 60",
             "package": "25Kg",
             "net_price": 16250,
-            "enduser_price ": 17875,
+            "enduser_price": 17875,
             "profit": 1625
         },
         {
@@ -1206,7 +1206,7 @@
             "product_name": "SGH - P1.0 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 15950,
-            "enduser_price ": 17545,
+            "enduser_price": 17545,
             "profit": 1595
         },
         {
@@ -1219,7 +1219,7 @@
             "product_name": "SGH - P1.0 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 16550,
-            "enduser_price ": 18205,
+            "enduser_price": 18205,
             "profit": 1655
         },
         {
@@ -1232,7 +1232,7 @@
             "product_name": "SGH - P1.0 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 16250,
-            "enduser_price ": 17875,
+            "enduser_price": 17875,
             "profit": 1625
         },
         {
@@ -1245,7 +1245,7 @@
             "product_name": "SGH - P1.2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 16250,
-            "enduser_price ": 17875,
+            "enduser_price": 17875,
             "profit": 1625
         },
         {
@@ -1258,7 +1258,7 @@
             "product_name": "SGH - P1.2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 15950,
-            "enduser_price ": 17545,
+            "enduser_price": 17545,
             "profit": 1595
         },
         {
@@ -1271,7 +1271,7 @@
             "product_name": "SGH - P1.2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 16550,
-            "enduser_price ": 18205,
+            "enduser_price": 18205,
             "profit": 1655
         },
         {
@@ -1284,7 +1284,7 @@
             "product_name": "SGH - P1.2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 16250,
-            "enduser_price ": 17875,
+            "enduser_price": 17875,
             "profit": 1625
         },
         {
@@ -1297,7 +1297,7 @@
             "product_name": "SGH - P1.4 - LOCO - 60",
             "package": "25Kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -1310,7 +1310,7 @@
             "product_name": "SGH - P1.4 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 15200,
-            "enduser_price ": 16720,
+            "enduser_price": 16720,
             "profit": 1520
         },
         {
@@ -1323,7 +1323,7 @@
             "product_name": "SGH - P1.4 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 15800,
-            "enduser_price ": 17380,
+            "enduser_price": 17380,
             "profit": 1580
         },
         {
@@ -1336,7 +1336,7 @@
             "product_name": "SGH - P1.4 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -1349,7 +1349,7 @@
             "product_name": "SGH - P1.6 - LOCO - 60",
             "package": "25Kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -1362,7 +1362,7 @@
             "product_name": "SGH - P1.6 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 15200,
-            "enduser_price ": 16720,
+            "enduser_price": 16720,
             "profit": 1520
         },
         {
@@ -1375,7 +1375,7 @@
             "product_name": "SGH - P1.6 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 15800,
-            "enduser_price ": 17380,
+            "enduser_price": 17380,
             "profit": 1580
         },
         {
@@ -1388,7 +1388,7 @@
             "product_name": "SGH - P1.6 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -1401,7 +1401,7 @@
             "product_name": "FORTUNA + 1.2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 14000,
-            "enduser_price ": 15400,
+            "enduser_price": 15400,
             "profit": 1400
         },
         {
@@ -1414,7 +1414,7 @@
             "product_name": "FORTUNA + 1.2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 13700,
-            "enduser_price ": 15070,
+            "enduser_price": 15070,
             "profit": 1370
         },
         {
@@ -1427,7 +1427,7 @@
             "product_name": "FORTUNA + 1.2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 14300,
-            "enduser_price ": 15730,
+            "enduser_price": 15730,
             "profit": 1430
         },
         {
@@ -1440,7 +1440,7 @@
             "product_name": "FORTUNA + 1.2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 14000,
-            "enduser_price ": 15400,
+            "enduser_price": 15400,
             "profit": 1400
         },
         {
@@ -1453,7 +1453,7 @@
             "product_name": "FORTUNA + 1.4 - LOCO - 60",
             "package": "25Kg",
             "net_price": 13900,
-            "enduser_price ": 15290,
+            "enduser_price": 15290,
             "profit": 1390
         },
         {
@@ -1466,7 +1466,7 @@
             "product_name": "FORTUNA + 1.4 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 13600,
-            "enduser_price ": 14960,
+            "enduser_price": 14960,
             "profit": 1360
         },
         {
@@ -1479,7 +1479,7 @@
             "product_name": "FORTUNA + 1.4 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 14200,
-            "enduser_price ": 15620,
+            "enduser_price": 15620,
             "profit": 1420
         },
         {
@@ -1492,7 +1492,7 @@
             "product_name": "FORTUNA + 1.4 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 13900,
-            "enduser_price ": 15290,
+            "enduser_price": 15290,
             "profit": 1390
         },
         {
@@ -1505,7 +1505,7 @@
             "product_name": "FORTUNA + 1.6 - LOCO - 60",
             "package": "25Kg",
             "net_price": 13800,
-            "enduser_price ": 15180,
+            "enduser_price": 15180,
             "profit": 1380
         },
         {
@@ -1518,7 +1518,7 @@
             "product_name": "FORTUNA + 1.6 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 13500,
-            "enduser_price ": 14850,
+            "enduser_price": 14850,
             "profit": 1350
         },
         {
@@ -1531,7 +1531,7 @@
             "product_name": "FORTUNA + 1.6 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 14100,
-            "enduser_price ": 15510,
+            "enduser_price": 15510,
             "profit": 1410
         },
         {
@@ -1544,7 +1544,7 @@
             "product_name": "FORTUNA + 1.6 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 13800,
-            "enduser_price ": 15180,
+            "enduser_price": 15180,
             "profit": 1380
         },
         {
@@ -1557,7 +1557,7 @@
             "product_name": "Ruby",
             "package": "25Kg",
             "net_price": 14000,
-            "enduser_price ": 15400,
+            "enduser_price": 15400,
             "profit": 1400
         },
         {
@@ -1570,7 +1570,7 @@
             "product_name": "Ruby SP",
             "package": "25Kg",
             "net_price": 13250,
-            "enduser_price ": 14575,
+            "enduser_price": 14575,
             "profit": 1325
         },
         {
@@ -1583,7 +1583,7 @@
             "product_name": "Ruby SA",
             "package": "25Kg",
             "net_price": 12500,
-            "enduser_price ": 13750,
+            "enduser_price": 13750,
             "profit": 1250
         },
         {
@@ -1596,7 +1596,7 @@
             "product_name": "VC - 3802",
             "package": "25kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -1609,7 +1609,7 @@
             "product_name": "VC - 3805",
             "package": "25kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -1622,7 +1622,7 @@
             "product_name": "VC - 3808",
             "package": "25kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -1635,7 +1635,7 @@
             "product_name": "VC - 3812",
             "package": "25kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -1648,7 +1648,7 @@
             "product_name": "VP - 3512",
             "package": "25kg",
             "net_price": 14700,
-            "enduser_price ": 16170,
+            "enduser_price": 16170,
             "profit": 1470
         },
         {
@@ -1661,7 +1661,7 @@
             "product_name": "VP - 3515",
             "package": "25kg",
             "net_price": 14700,
-            "enduser_price ": 16170,
+            "enduser_price": 16170,
             "profit": 1470
         },
         {
@@ -1674,7 +1674,7 @@
             "product_name": "SR - C1",
             "package": "25kg",
             "net_price": 14300,
-            "enduser_price ": 15730,
+            "enduser_price": 15730,
             "profit": 1430
         },
         {
@@ -1687,7 +1687,7 @@
             "product_name": "SR - C2",
             "package": "25kg",
             "net_price": 14300,
-            "enduser_price ": 15730,
+            "enduser_price": 15730,
             "profit": 1430
         },
         {
@@ -1700,7 +1700,7 @@
             "product_name": "SR - C3",
             "package": "25kg",
             "net_price": 14300,
-            "enduser_price ": 15730,
+            "enduser_price": 15730,
             "profit": 1430
         },
         {
@@ -1713,7 +1713,7 @@
             "product_name": "SP - P1",
             "package": "25kg",
             "net_price": 14300,
-            "enduser_price ": 15730,
+            "enduser_price": 15730,
             "profit": 1430
         },
         {
@@ -1726,7 +1726,7 @@
             "product_name": "SP - P2",
             "package": "25kg",
             "net_price": 14300,
-            "enduser_price ": 15730,
+            "enduser_price": 15730,
             "profit": 1430
         },
         {
@@ -1739,7 +1739,7 @@
             "product_name": "PV - C0 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -1752,7 +1752,7 @@
             "product_name": "PV - C0 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17600,
-            "enduser_price ": 19360,
+            "enduser_price": 19360,
             "profit": 1760
         },
         {
@@ -1765,7 +1765,7 @@
             "product_name": "PV - C0 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18200,
-            "enduser_price ": 20020,
+            "enduser_price": 20020,
             "profit": 1820
         },
         {
@@ -1778,7 +1778,7 @@
             "product_name": "PV - C0 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -1791,7 +1791,7 @@
             "product_name": "PV - C1 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -1804,7 +1804,7 @@
             "product_name": "PV - C1 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17600,
-            "enduser_price ": 19360,
+            "enduser_price": 19360,
             "profit": 1760
         },
         {
@@ -1817,7 +1817,7 @@
             "product_name": "PV - C1 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18200,
-            "enduser_price ": 20020,
+            "enduser_price": 20020,
             "profit": 1820
         },
         {
@@ -1830,7 +1830,7 @@
             "product_name": "PV - C1 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -1843,7 +1843,7 @@
             "product_name": "PV - C2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -1856,7 +1856,7 @@
             "product_name": "PV - C2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17600,
-            "enduser_price ": 19360,
+            "enduser_price": 19360,
             "profit": 1760
         },
         {
@@ -1869,7 +1869,7 @@
             "product_name": "PV - C2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18200,
-            "enduser_price ": 20020,
+            "enduser_price": 20020,
             "profit": 1820
         },
         {
@@ -1882,7 +1882,7 @@
             "product_name": "PV - C2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17900,
-            "enduser_price ": 19690,
+            "enduser_price": 19690,
             "profit": 1790
         },
         {
@@ -1895,7 +1895,7 @@
             "product_name": "PV - P1.0 - LOCO - 60",
             "package": "25Kg",
             "net_price": 18100,
-            "enduser_price ": 19910,
+            "enduser_price": 19910,
             "profit": 1810
         },
         {
@@ -1908,7 +1908,7 @@
             "product_name": "PV - P1.0 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17800,
-            "enduser_price ": 19580,
+            "enduser_price": 19580,
             "profit": 1780
         },
         {
@@ -1921,7 +1921,7 @@
             "product_name": "PV - P1.0 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18400,
-            "enduser_price ": 20240,
+            "enduser_price": 20240,
             "profit": 1840
         },
         {
@@ -1934,7 +1934,7 @@
             "product_name": "PV - P1.0 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 18100,
-            "enduser_price ": 19910,
+            "enduser_price": 19910,
             "profit": 1810
         },
         {
@@ -1947,7 +1947,7 @@
             "product_name": "PV - P1.2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 18100,
-            "enduser_price ": 19910,
+            "enduser_price": 19910,
             "profit": 1810
         },
         {
@@ -1960,7 +1960,7 @@
             "product_name": "PV - P1.2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17800,
-            "enduser_price ": 19580,
+            "enduser_price": 19580,
             "profit": 1780
         },
         {
@@ -1973,7 +1973,7 @@
             "product_name": "PV - P1.2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18400,
-            "enduser_price ": 20240,
+            "enduser_price": 20240,
             "profit": 1840
         },
         {
@@ -1986,7 +1986,7 @@
             "product_name": "PV - P1.2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 18100,
-            "enduser_price ": 19910,
+            "enduser_price": 19910,
             "profit": 1810
         },
         {
@@ -1999,7 +1999,7 @@
             "product_name": "PV - P1.4 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -2012,7 +2012,7 @@
             "product_name": "PV - P1.4 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17200,
-            "enduser_price ": 18920,
+            "enduser_price": 18920,
             "profit": 1720
         },
         {
@@ -2025,7 +2025,7 @@
             "product_name": "PV - P1.4 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 17800,
-            "enduser_price ": 19580,
+            "enduser_price": 19580,
             "profit": 1780
         },
         {
@@ -2038,7 +2038,7 @@
             "product_name": "PV - P1.4 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -2051,7 +2051,7 @@
             "product_name": "PV - P1.6 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -2064,7 +2064,7 @@
             "product_name": "PV - P1.6 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17200,
-            "enduser_price ": 18920,
+            "enduser_price": 18920,
             "profit": 1720
         },
         {
@@ -2077,7 +2077,7 @@
             "product_name": "PV - P1.6 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 17800,
-            "enduser_price ": 19580,
+            "enduser_price": 19580,
             "profit": 1780
         },
         {
@@ -2090,7 +2090,7 @@
             "product_name": "PV - P1.6 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17500,
-            "enduser_price ": 19250,
+            "enduser_price": 19250,
             "profit": 1750
         },
         {
@@ -2103,7 +2103,7 @@
             "product_name": "SGH - C0 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17750,
-            "enduser_price ": 19525,
+            "enduser_price": 19525,
             "profit": 1775
         },
         {
@@ -2116,7 +2116,7 @@
             "product_name": "SGH - C0 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17450,
-            "enduser_price ": 19195,
+            "enduser_price": 19195,
             "profit": 1745
         },
         {
@@ -2129,7 +2129,7 @@
             "product_name": "SGH - C0 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18050,
-            "enduser_price ": 19855,
+            "enduser_price": 19855,
             "profit": 1805
         },
         {
@@ -2142,7 +2142,7 @@
             "product_name": "SGH - C0 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17750,
-            "enduser_price ": 19525,
+            "enduser_price": 19525,
             "profit": 1775
         },
         {
@@ -2155,7 +2155,7 @@
             "product_name": "SGH - C1 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17750,
-            "enduser_price ": 19525,
+            "enduser_price": 19525,
             "profit": 1775
         },
         {
@@ -2168,7 +2168,7 @@
             "product_name": "SGH - C1 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17450,
-            "enduser_price ": 19195,
+            "enduser_price": 19195,
             "profit": 1745
         },
         {
@@ -2181,7 +2181,7 @@
             "product_name": "SGH - C1 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18050,
-            "enduser_price ": 19855,
+            "enduser_price": 19855,
             "profit": 1805
         },
         {
@@ -2194,7 +2194,7 @@
             "product_name": "SGH - C1 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17750,
-            "enduser_price ": 19525,
+            "enduser_price": 19525,
             "profit": 1775
         },
         {
@@ -2207,7 +2207,7 @@
             "product_name": "SGH - C2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 17750,
-            "enduser_price ": 19525,
+            "enduser_price": 19525,
             "profit": 1775
         },
         {
@@ -2220,7 +2220,7 @@
             "product_name": "SGH - C2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 17450,
-            "enduser_price ": 19195,
+            "enduser_price": 19195,
             "profit": 1745
         },
         {
@@ -2233,7 +2233,7 @@
             "product_name": "SGH - C2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 18050,
-            "enduser_price ": 19855,
+            "enduser_price": 19855,
             "profit": 1805
         },
         {
@@ -2246,7 +2246,7 @@
             "product_name": "SGH - C2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 17750,
-            "enduser_price ": 19525,
+            "enduser_price": 19525,
             "profit": 1775
         },
         {
@@ -2259,7 +2259,7 @@
             "product_name": "SGH - P1.0 - LOCO - 60",
             "package": "25Kg",
             "net_price": 16250,
-            "enduser_price ": 17875,
+            "enduser_price": 17875,
             "profit": 1625
         },
         {
@@ -2272,7 +2272,7 @@
             "product_name": "SGH - P1.0 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 15950,
-            "enduser_price ": 17545,
+            "enduser_price": 17545,
             "profit": 1595
         },
         {
@@ -2285,7 +2285,7 @@
             "product_name": "SGH - P1.0 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 16550,
-            "enduser_price ": 18205,
+            "enduser_price": 18205,
             "profit": 1655
         },
         {
@@ -2298,7 +2298,7 @@
             "product_name": "SGH - P1.0 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 16250,
-            "enduser_price ": 17875,
+            "enduser_price": 17875,
             "profit": 1625
         },
         {
@@ -2311,7 +2311,7 @@
             "product_name": "SGH - P1.2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 16250,
-            "enduser_price ": 17875,
+            "enduser_price": 17875,
             "profit": 1625
         },
         {
@@ -2324,7 +2324,7 @@
             "product_name": "SGH - P1.2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 15950,
-            "enduser_price ": 17545,
+            "enduser_price": 17545,
             "profit": 1595
         },
         {
@@ -2337,7 +2337,7 @@
             "product_name": "SGH - P1.2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 16550,
-            "enduser_price ": 18205,
+            "enduser_price": 18205,
             "profit": 1655
         },
         {
@@ -2350,7 +2350,7 @@
             "product_name": "SGH - P1.2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 16250,
-            "enduser_price ": 17875,
+            "enduser_price": 17875,
             "profit": 1625
         },
         {
@@ -2363,7 +2363,7 @@
             "product_name": "SGH - P1.4 - LOCO - 60",
             "package": "25Kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -2376,7 +2376,7 @@
             "product_name": "SGH - P1.4 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 15200,
-            "enduser_price ": 16720,
+            "enduser_price": 16720,
             "profit": 1520
         },
         {
@@ -2389,7 +2389,7 @@
             "product_name": "SGH - P1.4 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 15800,
-            "enduser_price ": 17380,
+            "enduser_price": 17380,
             "profit": 1580
         },
         {
@@ -2402,7 +2402,7 @@
             "product_name": "SGH - P1.4 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -2415,7 +2415,7 @@
             "product_name": "SGH - P1.6 - LOCO - 60",
             "package": "25Kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -2428,7 +2428,7 @@
             "product_name": "SGH - P1.6 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 15200,
-            "enduser_price ": 16720,
+            "enduser_price": 16720,
             "profit": 1520
         },
         {
@@ -2441,7 +2441,7 @@
             "product_name": "SGH - P1.6 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 15800,
-            "enduser_price ": 17380,
+            "enduser_price": 17380,
             "profit": 1580
         },
         {
@@ -2454,7 +2454,7 @@
             "product_name": "SGH - P1.6 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 15500,
-            "enduser_price ": 17050,
+            "enduser_price": 17050,
             "profit": 1550
         },
         {
@@ -2467,7 +2467,7 @@
             "product_name": "FORTUNA + 1.2 - LOCO - 60",
             "package": "25Kg",
             "net_price": 14000,
-            "enduser_price ": 15400,
+            "enduser_price": 15400,
             "profit": 1400
         },
         {
@@ -2480,7 +2480,7 @@
             "product_name": "FORTUNA + 1.2 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 13700,
-            "enduser_price ": 15070,
+            "enduser_price": 15070,
             "profit": 1370
         },
         {
@@ -2493,7 +2493,7 @@
             "product_name": "FORTUNA + 1.2 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 14300,
-            "enduser_price ": 15730,
+            "enduser_price": 15730,
             "profit": 1430
         },
         {
@@ -2506,7 +2506,7 @@
             "product_name": "FORTUNA + 1.2 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 14000,
-            "enduser_price ": 15400,
+            "enduser_price": 15400,
             "profit": 1400
         },
         {
@@ -2519,7 +2519,7 @@
             "product_name": "FORTUNA + 1.4 - LOCO - 60",
             "package": "25Kg",
             "net_price": 13900,
-            "enduser_price ": 15290,
+            "enduser_price": 15290,
             "profit": 1390
         },
         {
@@ -2532,7 +2532,7 @@
             "product_name": "FORTUNA + 1.4 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 13600,
-            "enduser_price ": 14960,
+            "enduser_price": 14960,
             "profit": 1360
         },
         {
@@ -2545,7 +2545,7 @@
             "product_name": "FORTUNA + 1.4 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 14200,
-            "enduser_price ": 15620,
+            "enduser_price": 15620,
             "profit": 1420
         },
         {
@@ -2558,7 +2558,7 @@
             "product_name": "FORTUNA + 1.4 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 13900,
-            "enduser_price ": 15290,
+            "enduser_price": 15290,
             "profit": 1390
         },
         {
@@ -2571,7 +2571,7 @@
             "product_name": "FORTUNA + 1.6 - LOCO - 60",
             "package": "25Kg",
             "net_price": 13800,
-            "enduser_price ": 15180,
+            "enduser_price": 15180,
             "profit": 1380
         },
         {
@@ -2584,7 +2584,7 @@
             "product_name": "FORTUNA + 1.6 - LOCO - CBD",
             "package": "25Kg",
             "net_price": 13500,
-            "enduser_price ": 14850,
+            "enduser_price": 14850,
             "profit": 1350
         },
         {
@@ -2597,7 +2597,7 @@
             "product_name": "FORTUNA + 1.6 - FRANCO - 60",
             "package": "25Kg",
             "net_price": 14100,
-            "enduser_price ": 15510,
+            "enduser_price": 15510,
             "profit": 1410
         },
         {
@@ -2610,7 +2610,7 @@
             "product_name": "FORTUNA + 1.6 - FRANCO - CBD",
             "package": "25Kg",
             "net_price": 13800,
-            "enduser_price ": 15180,
+            "enduser_price": 15180,
             "profit": 1380
         }
     ]

@@ -13,9 +13,6 @@ class PatunganView extends GetView<PatunganController> {
   const PatunganView({super.key});
   @override
   Widget build(BuildContext context) {
-    controller.getBenur();
-    controller.getPakan();
-
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
@@ -62,8 +59,9 @@ class PatunganView extends GetView<PatunganController> {
                       ? controller.listBenur
                       : controller.tabIndex.value == 1
                           ? controller.listPakan
-                          : []);
+                          : []).reversed.toList();
                   return ListPatungan(
+                    tipe: controller.tabIndex.value == 0 ? 'benur' : 'pakan',
                     name: list[index].data['name'],
                     targetSaldo: list[index].data['target_saldo'],
                     saldoSekarang: list[index].data['saldo_sekarang'],
@@ -128,7 +126,7 @@ class PatunganView extends GetView<PatunganController> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  'LO',
+                  'JL',
                   style: TextStyle(
                     color: whiteColor,
                     fontWeight: FontWeight.bold,

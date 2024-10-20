@@ -16,6 +16,7 @@ abstract class Routes {
   static const CREATE_BENUR = _Paths.CREATE_BENUR;
   static const ORDER = _Paths.ORDER;
   static const PROFILE = _Paths.PROFILE;
+  static const HISTORY = _Paths.HISTORY;
 }
 
 abstract class _Paths {
@@ -31,4 +32,5 @@ abstract class _Paths {
   static const CREATE_BENUR = '/create-benur';
   static const ORDER = '/order';
   static const PROFILE = '/profile';
+  static const HISTORY = '/history';
 }

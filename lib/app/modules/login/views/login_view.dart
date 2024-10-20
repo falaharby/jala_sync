@@ -22,102 +22,116 @@ class LoginView extends GetView<LoginController> {
     TextEditingController passwordController = TextEditingController();
 
     return Scaffold(
-      body: Container(
-        padding: const EdgeInsets.all(24),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              AppTextField(
-                controller: emailController,
-                hintText: 'Email',
-                validator: (val) {
-                  if(val == '') {
-                    return 'Harap masukkan email';
-                  }
-                  if(!isEmail(val ?? '')){
-                    return 'Email tidak valid';
-                  }
-                  return null;
-                },
-              ),
-              const SizedBox(height: 12),
-              AppTextField(
-                controller: passwordController,
-                obscureText: true,
-                hintText: 'Password',
-                validator: (val) {
-                  if(val == '') {
-                    return 'Harap masukkan password';
-                  }
-                  if ((val?.length ?? 0) < 8) {
-                    return 'Minimal password adalah 8 digit';
-                  }
-                  return null;
-                },
-              ),
-              const SizedBox(height: 24),
-              Obx(
-                () => AppButtonWidget(
-                  onTap: () async {
-                    if (_formKey.currentState!.validate()) {
-                      try {
-                        await controller.login(
-                          email: emailController.text,
-                          password: passwordController.text,
-                        );
-                        Get.offAllNamed(Routes.MAIN_PAGE);
-                      } catch (e) {
-                        final error = (e as AppwriteException).message;
-                        if (error != null) {
-                          if (e.code == 401) {
-                            showModalDialog(
-                              context: context,
-                              dismissable: true,
-                              title: 'Gagal Login',
-                              subtitle:  'Email atau Password salah, silahkan cek kembali',
-                              actions: [
-                                AppButtonWidget(
-                                  onTap: (){
-                                    Navigator.pop(context);
-                                  },
-                                  text: 'Kembali',
-                                  textSize: 12,
-                                  textColor: whiteColor,
-                                  isLoading: false,
-                                )
-                              ]
+      body: Stack(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(24),
+            child: Form(
+              key: _formKey,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    'Jala Lokal',
+                    style: TextStyle(
+                        color: primaryColor,
+                        fontSize: 48,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(
+                    height: 100,
+                  ),
+                  AppTextField(
+                    controller: emailController,
+                    hintText: 'Email',
+                    validator: (val) {
+                      if (val == '') {
+                        return 'Harap masukkan email';
+                      }
+                      if (!isEmail(val ?? '')) {
+                        return 'Email tidak valid';
+                      }
+                      return null;
+                    },
+                  ),
+                  const SizedBox(height: 12),
+                  AppTextField(
+                    controller: passwordController,
+                    obscureText: true,
+                    hintText: 'Password',
+                    validator: (val) {
+                      if (val == '') {
+                        return 'Harap masukkan password';
+                      }
+                      if ((val?.length ?? 0) < 8) {
+                        return 'Minimal password adalah 8 digit';
+                      }
+                      return null;
+                    },
+                  ),
+                  const SizedBox(height: 24),
+                  Obx(
+                    () => AppButtonWidget(
+                      onTap: () async {
+                        if (_formKey.currentState!.validate()) {
+                          try {
+                            await controller.login(
+                              email: emailController.text,
+                              password: passwordController.text,
                             );
+                            Get.offAllNamed(Routes.MAIN_PAGE);
+                          } catch (e) {
+                            final error = (e as AppwriteException).message;
+                            if (error != null) {
+                              if (e.code == 401) {
+                                showModalDialog(
+                                    context: context,
+                                    dismissable: true,
+                                    title: 'Gagal Login',
+                                    subtitle:
+                                        'Email atau Password salah, silahkan cek kembali',
+                                    actions: [
+                                      AppButtonWidget(
+                                        onTap: () {
+                                          Navigator.pop(context);
+                                        },
+                                        text: 'Kembali',
+                                        textSize: 12,
+                                        textColor: whiteColor,
+                                        isLoading: false,
+                                      )
+                                    ]);
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  },
-                  text: 'Login',
-                  textColor: whiteColor,
-                  isLoading: controller.isLoading.value,
-                ),
-              ),
-              GestureDetector(
-                onTap: () {
-                  Get.toNamed(Routes.REGISTER);
-                },
-                child: Container(
-                  margin: const EdgeInsets.all(12.0),
-                  child: const Text(
-                    'Register',
-                    style: TextStyle(
-                      color: primaryColor,
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
+                      },
+                      text: 'Login',
+                      textColor: whiteColor,
+                      isLoading: controller.isLoading.value,
                     ),
                   ),
-                ),
+                  GestureDetector(
+                    onTap: () {
+                      Get.toNamed(Routes.REGISTER);
+                    },
+                    child: Container(
+                      margin: const EdgeInsets.all(12.0),
+                      child: const Text(
+                        'Register',
+                        style: TextStyle(
+                          color: primaryColor,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
-            ],
+            ),
           ),
-        ),
+        ],
       ),
     );
   }

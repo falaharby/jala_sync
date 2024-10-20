@@ -22,10 +22,28 @@ class PatunganRepositories {
     }
   }
 
+  Future<DocumentList> getPatunganByIdUser(String userId) async {
+    try {
+      final result = await AppwriteServices.database.listDocuments(
+        databaseId: '67134b1d00038c80e13e',
+        collectionId: '671448a000308e3576d7',
+        queries: [
+          Query.equal('user_id', userId)
+        ]
+      );
+      log('Success GET List Patungan $result');
+      return result;
+    } catch(e) {
+      log('Error GET List Patungan $e');
+      rethrow;
+    }
+  }
+
   Future<Document> createPatungan({
     required String userId,
     required String orderId,
     required String userName,
+    required String tipe,
     required int total,
   }) async {
     try {
@@ -37,6 +55,7 @@ class PatunganRepositories {
             "user_id" : userId,
             "order_id" : orderId,
             "user_name" : userName,
+            "tipe" : tipe,
             "total" : total,
           });
       log('Success CREATE Patungan $result');

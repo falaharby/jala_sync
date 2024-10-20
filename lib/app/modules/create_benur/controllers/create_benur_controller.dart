@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:jala_verification/app/services/repositories/auth_repositories.dart';
+import 'package:jala_verification/app/services/repositories/benur_repositories.dart';
 import 'package:jala_verification/app/services/repositories/pakan_repositories.dart';
 import 'package:jala_verification/app/services/repositories/patungan_repositories.dart';
 
@@ -11,6 +12,7 @@ class CreateBenurController extends GetxController {
   RxList listProductBenur = [].obs;
   RxList listProductPakan = [].obs;
   RxString selectedPakanId = ''.obs;
+  RxString selectedBenurId = ''.obs;
   RxString queryBenur = ''.obs;
   RxString queryPakan = ''.obs;
   RxString startDate = ''.obs;
@@ -19,9 +21,10 @@ class CreateBenurController extends GetxController {
   final AuthRepositories _authRepositories;
   final PatunganRepositories _patunganRepositories;
   final PakanRepositories _pakanRepositories;
+  final BenurRepositories _benurRepositories;
 
   CreateBenurController(this._authRepositories, this._patunganRepositories,
-      this._pakanRepositories);
+      this._pakanRepositories, this._benurRepositories);
 
   Future getListProductBenur() async {
     listProductBenur.clear();
@@ -61,6 +64,25 @@ class CreateBenurController extends GetxController {
       // );
     });
   }
+
+
+  Future createPatunganBenur(int target) async {
+    final sess = await _authRepositories.cachedSession;
+    final selectedBenur = listProductBenur
+        .where((e) => e['id'].toString() == selectedBenurId.value)
+        .firstOrNull;
+    
+        _benurRepositories.createOrderBenur(
+      creatorId: sess?.$id ?? '',
+      location: 'Jawa',
+      productName: selectedBenur['fry_brand'],
+      startDate: startDate.value,
+      endDate: endDate.value,
+      saldoSekarang: 0,
+      targetSaldo: target,
+    );
+  }
+
 
   @override
   void onInit() {
