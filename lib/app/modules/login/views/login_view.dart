@@ -67,7 +67,7 @@ class LoginView extends GetView<LoginController> {
                           email: emailController.text,
                           password: passwordController.text,
                         );
-                        Get.offAllNamed(Routes.HOME);
+                        Get.offAllNamed(Routes.MAIN_PAGE);
                       } catch (e) {
                         final error = (e as AppwriteException).message;
                         if (error != null) {

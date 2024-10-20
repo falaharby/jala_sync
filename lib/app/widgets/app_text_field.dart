@@ -5,26 +5,35 @@ class AppTextField extends StatelessWidget {
   final TextEditingController controller;
   final String? hintText, labelText;
   final bool? obscureText;
+  final Function(String)? onChanged;
   final String? Function(String?)? validator;
-  const AppTextField({super.key, required this.controller, this.hintText, this.labelText, this.obscureText, this.validator});
+  const AppTextField({
+    super.key,
+    required this.controller,
+    this.hintText,
+    this.labelText,
+    this.obscureText,
+    this.validator,
+    this.onChanged,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        labelText != null 
-          ? Padding(
-            padding: const EdgeInsets.only(bottom: 8),
-            child: Text(
-                labelText ?? '',
-                style: const TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w500,
+        labelText != null
+            ? Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Text(
+                  labelText ?? '',
+                  style: const TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
-              ),
-          )
-          : const SizedBox(),
+              )
+            : const SizedBox(),
         TextFormField(
           controller: controller,
           obscureText: obscureText ?? false,
@@ -34,12 +43,14 @@ class AppTextField extends StatelessWidget {
             fontWeight: FontWeight.w400,
           ),
           validator: validator,
+          onChanged: onChanged,
           decoration: InputDecoration(
-            contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            contentPadding:
+                const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             hintText: hintText,
-            isDense: true, 
+            isDense: true,
             filled: true,
-            fillColor: inputColor,
+            fillColor: whiteColor,
             border: InputBorder.none,
             hintStyle: const TextStyle(
               fontSize: 14,

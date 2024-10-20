@@ -141,7 +141,7 @@ class ListPatungan extends StatelessWidget {
             const SizedBox(height: 16),
             AppButtonWidget(
               onTap: onTap ?? () {},
-              text: 'Patungan Sekarang',
+              text: 'Gabung',
               textSize: 16,
               fontWeight: FontWeight.w500,
             ),

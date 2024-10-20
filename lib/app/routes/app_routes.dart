@@ -14,6 +14,8 @@ abstract class Routes {
   static const PATUNGAN = _Paths.PATUNGAN;
   static const BENUR = _Paths.BENUR;
   static const CREATE_BENUR = _Paths.CREATE_BENUR;
+  static const ORDER = _Paths.ORDER;
+  static const PROFILE = _Paths.PROFILE;
 }
 
 abstract class _Paths {
@@ -27,4 +29,6 @@ abstract class _Paths {
   static const PATUNGAN = '/patungan';
   static const BENUR = '/benur';
   static const CREATE_BENUR = '/create-benur';
+  static const ORDER = '/order';
+  static const PROFILE = '/profile';
 }

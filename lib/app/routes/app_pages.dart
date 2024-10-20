@@ -10,9 +10,13 @@ import '../modules/login/bindings/login_binding.dart';
 import '../modules/login/views/login_view.dart';
 import '../modules/main_page/bindings/main_page_binding.dart';
 import '../modules/main_page/views/main_page_view.dart';
+import '../modules/order/bindings/order_binding.dart';
+import '../modules/order/views/order_view.dart';
 import '../modules/patungan/bindings/patungan_binding.dart';
 import '../modules/patungan/views/benur/benur_view.dart';
 import '../modules/patungan/views/patungan_view.dart';
+import '../modules/profile/bindings/profile_binding.dart';
+import '../modules/profile/views/profile_view.dart';
 import '../modules/register/bindings/register_binding.dart';
 import '../modules/register/views/register_view.dart';
 import '../modules/welcome/bindings/welcome_binding.dart';
@@ -70,8 +74,18 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.CREATE_BENUR,
-      page: () => const CreateBenurView(),
+      page: () => CreateBenurView(),
       binding: CreateBenurBinding(),
+    ),
+    GetPage(
+      name: _Paths.ORDER,
+      page: () => OrderView(),
+      binding: OrderBinding(),
+    ),
+    GetPage(
+      name: _Paths.PROFILE,
+      page: () => const ProfileView(),
+      binding: ProfileBinding(),
     ),
   ];
 }

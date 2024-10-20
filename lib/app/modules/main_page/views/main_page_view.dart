@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:iconly/iconly.dart';
 import 'package:jala_verification/app/modules/create_benur/views/create_benur_view.dart';
 import 'package:jala_verification/app/modules/home/views/home_view.dart';
 import 'package:jala_verification/app/modules/patungan/views/patungan_view.dart';
+import 'package:jala_verification/app/modules/profile/views/profile_view.dart';
 import 'package:jala_verification/app/routes/app_pages.dart';
 import 'package:jala_verification/app/utils/colors.dart';
 import 'package:proste_indexed_stack/proste_indexed_stack.dart';
@@ -35,7 +37,7 @@ class MainPageView extends GetView<MainPageController> {
                   child: const SizedBox(),
                 ),
                 IndexedStackChild(
-                  child: const SizedBox(),
+                  child: const ProfileView(),
                 ),
               ],
             ),
@@ -70,8 +72,8 @@ class MainPageView extends GetView<MainPageController> {
                       ),
                       const Expanded(child: SizedBox()),
                       bottomBarItem(
-                        title: 'Nothing',
-                        icons: Icons.no_accounts,
+                        title: 'Riwayat',
+                        icons: Icons.history_edu_outlined,
                         index: 3,
                         selected: controller.pageIndex.value == 3,
                       ),
